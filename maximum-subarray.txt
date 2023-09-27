@@ -1,6 +1,8 @@
-Problem: Given an integer array nums, find the subarray with the largest sum, and return its sum.
+Problem: 
+Given an integer array nums, find the subarray with the largest sum, and return its sum.
 
-Link: https://leetcode.com/problems/maximum-subarray/
+Link: 
+https://leetcode.com/problems/maximum-subarray/
 
 Approach:
 1. We create a variable max_sum and initialize to the minimum value. It stores the maximum sum so far.

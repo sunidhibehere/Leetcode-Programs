@@ -1,0 +1,11 @@
+Problem: Given an integer array nums, find the subarray with the largest sum, and return its sum.
+
+Link: https://leetcode.com/problems/maximum-subarray/
+
+Approach:
+1. We create a variable max_sum and initialize to the minimum value. It stores the maximum sum so far.
+2. new_sum variable stores the sum of elements of subarray currently being traversed.
+3. We start a loop and add the element value in the new_sum variable.
+4. If new_sum is found to be greater than the max_sum then we store new_sum in max_sum.
+5. If new_sum at any point is found to be less than zero,we do not perform addition rather store zero to new_sum,as sum of negative numbers will give negative value which is not needed.
+6. After the loop is executed, we return the max_sum,which stores the maximum subarray sum.

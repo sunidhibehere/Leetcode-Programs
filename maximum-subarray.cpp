@@ -6,7 +6,6 @@ public:
 
         for(int i=0;i<nums.size();i++){ 
             new_sum += nums[i];
-
             if(new_sum>max_sum){
                 max_sum = new_sum;
             }

@@ -1,0 +1,13 @@
+Program:
+Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
+You must solve this problem without using the library's sort function.
+
+Link:
+https://leetcode.com/problems/sort-colors/
+
+Approach:
+1. Traverse in the "nums" with i=0 so it will start from 0th element
+2. The second pointer is set to i+1.It will start from the next element. 
+3. Now compare and put the greater element in the temporary variable and the smaller one to greater one.
+4. Keep swapping till you get elements sorted in 0s,1s and 2s.

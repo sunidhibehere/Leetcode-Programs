@@ -1,0 +1,13 @@
+Program:
+You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.
+Return the single element that appears only once.
+Your solution must run in O(log n) time and O(1) space.
+
+Link:
+https://leetcode.com/problems/single-element-in-a-sorted-array/
+
+Approach:
+1. Create a variable res and initialize it to zero.
+2. Run a loop till the end of array.
+3. Use the XOR operator which results in zero if it is performed with itself otherwise gives one.
+4. This will cancel out all pairs and we will get the element which is single.

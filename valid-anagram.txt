@@ -1,0 +1,12 @@
+Program:
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+Link:
+https://leetcode.com/problems/valid-anagram/
+
+Approach:
+1. If the string length of s and t is not equal return false.
+2. Sort the string s and t using sort function.
+3. After sorting check whether the two strings are equal or not.
+4. If the strings are found to be equal return true, else false.
